@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="508dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="-25dp"
+        android:alpha="0.33"
+        android:scaleType="fitXY"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/semi_circle" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="306dp"
+        android:layout_height="303dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <Button
+            android:id="@+id/btn_admin"
+            android:layout_width="152dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="84dp"
+            android:background="@drawable/button_gradient"
+            android:fontFamily="@font/senbold"
+            android:text="Admin"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn_customer"
+            android:layout_width="152dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/button_gradient"
+            android:fontFamily="@font/senbold"
+            android:text="Customer"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvLoggedAs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/senbold"
+        android:text="Registerd Name:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnPrayerTimes"
+        android:layout_width="253dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_gradient"
+        android:drawableLeft="@drawable/appointment"
+        android:fontFamily="@font/senbold"
+        android:onClick="OnAppointmentClick"
+        android:text="Appointment"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLoggedAs" />
+
+    <Button
+        android:id="@+id/btnQiblaDirection"
+        android:layout_width="253dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_gradient"
+        android:drawableLeft="@drawable/doctor"
+        android:fontFamily="@font/senbold"
+        android:onClick="OnDoctorsClick"
+        android:text="Doctors"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPrayerTimes" />
+
+    <Button
+        android:id="@+id/btnAhkam"
+        android:layout_width="253dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_gradient"
+        android:drawableLeft="@drawable/hospital"
+        android:fontFamily="@font/senbold"
+        android:onClick="OnAmbulanceClick"
+        android:text="Ambulance"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnQiblaDirection" />
+
+    <Button
+        android:id="@+id/btnThiker"
+        android:layout_width="253dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_gradient"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:fontFamily="@font/senbold"
+        android:onClick="onContactUsClick"
+        android:text="Contact Us"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAhkam" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/senbold"
+        android:text="Welcome!"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTasbeeh"
+        android:layout_width="253dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_gradient"
+        android:drawableLeft="@android:drawable/ic_dialog_info"
+        android:fontFamily="@font/senbold"
+        android:onClick="OnAboutUsClick"
+        android:text="About Us"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThiker" />
+
+    <Button
+        android:id="@+id/btnUserStatus"
+        android:layout_width="180dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_gradient"
+        android:drawableLeft="@drawable/login"
+        android:fontFamily="@font/senbold"
+        android:onClick="onUserStatusClick"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTasbeeh"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grass"
+        tools:sample="MissingPrefix"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

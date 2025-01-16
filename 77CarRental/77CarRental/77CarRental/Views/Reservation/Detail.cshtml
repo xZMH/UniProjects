@@ -1,0 +1,74 @@
+﻿@model _77CarRental.Models.Reservation
+
+@{
+    ViewData["Title"] = "Reservation Details";
+
+    TimeSpan rentalPeriod = Model.End_Date.Date - Model.Start_Date.Date;
+    int DaysRented = rentalPeriod.Days + 1; // Including both start and end date in the count
+    double totalcost = DaysRented * Model.Car.Price;
+    string displayStatus = Model.ReservationStatus;
+
+    // Check if the reservation's end date is today and update displayStatus if necessary
+    if (Model.End_Date.Date == DateTime.Now.Date)
+    {
+        displayStatus = "Done";
+    }
+    else
+    {
+        displayStatus = "On Going";
+    }
+}
+
+<h1>Reservation Details</h1>
+
+<div>
+    <h4>Reservation Under the name @Model.Customer.FullName </h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Reservation ID
+        </dt>
+        <dd class="col-sm-10">
+            @Model.ReservationId
+        </dd>
+        <dt class="col-sm-2">
+            Customer Name
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Customer.FullName
+        </dd>
+        <dt class="col-sm-2">
+            Car
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Car.Make @Model.Car.Model (@Model.Car.Year)
+        </dd>
+        <dt class="col-sm-2">
+            Start Date
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Start_Date.ToShortDateString()
+        </dd>
+        <dt class="col-sm-2">
+            End Date
+        </dt>
+        <dd class="col-sm-10">
+            @Model.End_Date.ToShortDateString()
+        </dd>
+        <dt class="col-sm-2">
+            Price Paid
+        </dt>
+        <dd class="col-sm-10">
+            @totalcost AED
+        </dd>
+        <dt class="col-sm-2">
+            Reservation Status
+        </dt>
+        <dd class="col-sm-10">
+            @displayStatus
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-default">Back to list</a>
+</div>

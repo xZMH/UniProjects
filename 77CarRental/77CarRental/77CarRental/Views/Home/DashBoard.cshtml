@@ -1,0 +1,52 @@
+﻿@{
+    Layout = "_Layout"; // Set this to your layout file if you have one
+}
+
+<h2>Services Dashboard</h2>
+
+<!-- Bootstrap Nav Tabs -->
+<ul class="nav nav-tabs" id="servicesTabs" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="reservations-tab" data-toggle="tab" href="#reservations" role="tab" aria-controls="reservations" aria-selected="true">Reservations</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="cars-tab" data-toggle="tab" href="#cars" role="tab" aria-controls="cars" aria-selected="false">Cars</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="customers-tab" data-toggle="tab" href="#customers" role="tab" aria-controls="customers" aria-selected="false">Customers</a>
+    </li>
+    <!-- Remove Reviews if not applicable -->
+</ul>
+
+<!-- Tab Panes -->
+<div class="tab-content" id="servicesTabsContent">
+    <!-- Reservations Tab -->
+    <div class="tab-pane fade show active" id="reservations" role="tabpanel" aria-labelledby="reservations-tab">
+        <a href="@Url.Action("Create", "Reservation")" class="btn btn-success">Create Reservation</a>
+        <a href="@Url.Action("Index", "Reservation")" class="btn btn-primary">View Reservations</a>
+        <!-- Edit and Delete actions would be performed from the individual list/detail views -->
+    </div>
+
+    <!-- Cars Tab -->
+    <div class="tab-pane fade" id="cars" role="tabpanel" aria-labelledby="cars-tab">
+        <a href="@Url.Action("Create", "Car")" class="btn btn-success">Add Car</a>
+        <a href="@Url.Action("Index", "Car")" class="btn btn-primary">View Cars</a>
+    </div>
+
+    <!-- Customers Tab -->
+    <div class="tab-pane fade" id="customers" role="tabpanel" aria-labelledby="customers-tab">
+        <a href="@Url.Action("Create", "Customer")" class="btn btn-success">Add Customer</a>
+        <a href="@Url.Action("Index", "Customer")" class="btn btn-primary">View Customers</a>
+    </div>
+
+    <!-- Add more tabs for other services if necessary -->
+</div>
+
+@section Scripts {
+    <script>
+        $('#servicesTabs a').on('click', function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+        });
+    </script>
+}

@@ -1,0 +1,565 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\77CarRental.bundle.scp.css",
+      "PackagePath": "staticwebassets\\77CarRental.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\bootsnav.css",
+      "PackagePath": "staticwebassets\\css\\bootsnav.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\css\\linearicons.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\Electric01.png",
+      "PackagePath": "staticwebassets\\images\\Electric01.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\SUV01.png",
+      "PackagePath": "staticwebassets\\images\\SUV01.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\Sedan01.png",
+      "PackagePath": "staticwebassets\\images\\Sedan01.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\Sports01.png",
+      "PackagePath": "staticwebassets\\images\\Sports01.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\brand\\br1.png",
+      "PackagePath": "staticwebassets\\images\\brand\\br1.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\brand\\br2.png",
+      "PackagePath": "staticwebassets\\images\\brand\\br2.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\brand\\br3.png",
+      "PackagePath": "staticwebassets\\images\\brand\\br3.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\brand\\br4.png",
+      "PackagePath": "staticwebassets\\images\\brand\\br4.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\brand\\br5.png",
+      "PackagePath": "staticwebassets\\images\\brand\\br5.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\brand\\br6.png",
+      "PackagePath": "staticwebassets\\images\\brand\\br6.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\clients\\c1.png",
+      "PackagePath": "staticwebassets\\images\\clients\\c1.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\clients\\c2.png",
+      "PackagePath": "staticwebassets\\images\\clients\\c2.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\clients\\c3.png",
+      "PackagePath": "staticwebassets\\images\\clients\\c3.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\featured-cars\\fc1.png",
+      "PackagePath": "staticwebassets\\images\\featured-cars\\fc1.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\featured-cars\\fc2.png",
+      "PackagePath": "staticwebassets\\images\\featured-cars\\fc2.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\featured-cars\\fc3.png",
+      "PackagePath": "staticwebassets\\images\\featured-cars\\fc3.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\featured-cars\\fc4.png",
+      "PackagePath": "staticwebassets\\images\\featured-cars\\fc4.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\featured-cars\\fc5.png",
+      "PackagePath": "staticwebassets\\images\\featured-cars\\fc5.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\featured-cars\\fc6.png",
+      "PackagePath": "staticwebassets\\images\\featured-cars\\fc6.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\featured-cars\\fc7.png",
+      "PackagePath": "staticwebassets\\images\\featured-cars\\fc7.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\featured-cars\\fc8.png",
+      "PackagePath": "staticwebassets\\images\\featured-cars\\fc8.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\icons\\Instagram.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\icons\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\icons\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\icons\\youtube.png",
+      "PackagePath": "staticwebassets\\images\\icons\\youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\new-cars-model\\ncm1.png",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\ncm1.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\new-cars-model\\ncm2.png",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\ncm2.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\new-cars-model\\ncm3.png",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\ncm3.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\pic15.png",
+      "PackagePath": "staticwebassets\\images\\pic15.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\pic3.png",
+      "PackagePath": "staticwebassets\\images\\pic3.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\pic5.png",
+      "PackagePath": "staticwebassets\\images\\pic5.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\pic6.png",
+      "PackagePath": "staticwebassets\\images\\pic6.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\pic7.png",
+      "PackagePath": "staticwebassets\\images\\pic7.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\pic8.png",
+      "PackagePath": "staticwebassets\\images\\pic8.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\pic9.png",
+      "PackagePath": "staticwebassets\\images\\pic9.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\sentraBlack2017.png",
+      "PackagePath": "staticwebassets\\images\\sentraBlack2017.png"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\images\\welcome-hero\\welcome-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\welcome-hero\\welcome-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\js\\bootsnav.js",
+      "PackagePath": "staticwebassets\\js\\bootsnav.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\js\\feather.min.js",
+      "PackagePath": "staticwebassets\\js\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\dvbed\\OneDrive\\Desktop\\ddwa1\\77CarRental\\77CarRental\\wwwroot\\logo\\favicon.png",
+      "PackagePath": "staticwebassets\\logo\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.77CarRental.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.77CarRental.props",
+      "PackagePath": "build\\77CarRental.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.77CarRental.props",
+      "PackagePath": "buildMultiTargeting\\77CarRental.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.77CarRental.props",
+      "PackagePath": "buildTransitive\\77CarRental.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,39 @@
+﻿@model _77CarRental.Models.Reservation
+
+@{
+    ViewData["Title"] = "Edit Reservation";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="container mt-5">
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="ReservationId" />
+        <div class="form-group">
+            <label asp-for="CustomerId" class="control-label">Customer ID</label>
+            <input asp-for="CustomerId" class="form-control" />
+            <span asp-validation-for="CustomerId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CarId" class="control-label">Car ID</label>
+            <input asp-for="CarId" class="form-control" />
+            <span asp-validation-for="CarId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Start_Date" class="control-label">Start Date</label>
+            <input asp-for="Start_Date" type="date" class="form-control" />
+            <span asp-validation-for="Start_Date" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="End_Date" class="control-label">End Date</label>
+            <input asp-for="End_Date" type="date" class="form-control" />
+            <span asp-validation-for="End_Date" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ReservationStatus" class="control-label">Reservation Status</label>
+            <input asp-for="ReservationStatus" class="form-control" />
+            <span asp-validation-for="ReservationStatus" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+</div>

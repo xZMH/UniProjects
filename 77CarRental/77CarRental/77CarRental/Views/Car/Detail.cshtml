@@ -1,0 +1,105 @@
+﻿@model Car
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--font-family-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
+
+    <!-- title of site -->
+    <title>77CarRental</title>
+
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="icon" href="logo/favicon.png" />
+
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--linear icon css-->
+    <link rel="stylesheet" href="css/linearicons.css">
+
+    <!--flaticon.css-->
+    <link rel="stylesheet" href="css/flaticon.css">
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="css/bootsnav.css">
+
+    <!--style.css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--responsive.css-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="car-details-container">
+                    <div class="car-card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="car-info">
+                                    <p><strong>Make: </strong>@Model.Make</p>
+                                    <p><strong>Model: </strong>@Model.Model</p>
+                                    <p><strong>Year: </strong>@Model.Year</p>
+                                    <p><strong>Color: </strong>@Model.Color</p>
+                                    <p><strong>Per Day: </strong>@Model.Price AED</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="@Url.Content("~/images/" + Model.ImagePath)" alt="Image of @Model.Make @Model.Model" class="img-fluid rounded" />
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    @if (Model.CarStatus == "Available")
+                                    {
+                                        <form asp-controller="Reservation" asp-action="Create" method="post">
+                                            <input type="hidden" name="carId" value="@Model.CarId" />
+                                            <button type="submit" class="btn btn-danger">Rent This Car</button>
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <form asp-controller="Car" asp-action="MakeAvailable" method="post">
+                                            <input type="hidden" name="carId" value="@Model.CarId" />
+                                            @if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
+                                            {
+                                                <button type="submit" class="btn btn-primary">Make Available</button>
+                                            }
+                                        </form>
+                                        <form asp-controller="Car" method="post">
+                                            <button type="submit" class="btn btn-success btn-outline-primary">Back</button>
+                                        </form>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

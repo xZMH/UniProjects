@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857603378980",
+    "project_id": "hopeclinic-6bc0c",
+    "storage_bucket": "hopeclinic-6bc0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857603378980:android:4d49aea6a08e8c5d5c6db1",
+        "android_client_info": {
+          "package_name": "com.example.hope_clinic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9y4HNf1uAOKkxkPFMyHXM3QV9buwKTC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

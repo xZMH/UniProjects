@@ -1,0 +1,28 @@
+﻿@model List<Car>
+<div class="row">
+    @if (Model.Count > 0)  //check if the Model (list of books) has any books
+    {
+        foreach (var Car in Model) // loop through each book in the model
+        {
+            <div class="col-sm-3">
+                <div class="card" style="margin-bottom:15px; margin-top:10px">
+                    <div class="card-header">
+                        <h5>@Car.Make</h5>
+                    </div>
+                    <p class="card-text">
+                        Make:  @Car.Make
+                    </p>
+                    <div class="card-footer text-center">
+                        <a asp-controller="Search" asp-action="Detail" asp-route-id=@Car.Make class="btn btn-primary">View</a>
+                        <a asp-controller="Book" asp-action="Edit" asp-route-id=@Car.Model class="btn btn-primary">Edit</a>
+                        <a asp-controller="Book" asp-action="Delete" asp-route-id=@Car.Year class="btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+          <p>No books found</p>
+    }
+</div>
